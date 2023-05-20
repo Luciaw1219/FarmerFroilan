@@ -1,20 +1,32 @@
 package com.zipcodewilmington.froilansfarm;
 
-public class Farmer extends Person implements Botanist, Rider, NoiseMaker{
+import com.zipcodewilmington.froilansfarm.interfaces.Botanist;
+import com.zipcodewilmington.froilansfarm.interfaces.Edible;
+import com.zipcodewilmington.froilansfarm.interfaces.Rider;
+import com.zipcodewilmington.froilansfarm.plants.Crop;
 
-    public void plant() {
+public class Farmer extends Person implements Botanist, Rider {
 
+    @Override
+    public void plant(/*CropRow cropRow, */Crop crop) {
     }
 
+    @Override
     public void makeNoise() {
-        System.out.println("");
+        System.out.println("howdy");
     }
 
-    public void mount() {
-
+    @Override
+    public void mount(/*Rideable rideable*/) {
     }
 
-    public void disMount() {
-
+    @Override
+    public void dismount(/*Rideable rideable*/) {
     }
+
+    @Override
+    public void eat(Edible edible) {
+        System.out.println("yum yum");
+    }
+
 }

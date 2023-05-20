@@ -104,3 +104,7 @@ target/*
 .project
 .classpath
 .settings
+
+# other
+.idea
+.DS_STORE
