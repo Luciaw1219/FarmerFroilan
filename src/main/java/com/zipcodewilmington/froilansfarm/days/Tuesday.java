@@ -1,8 +1,7 @@
 package com.zipcodewilmington.froilansfarm.days;
 
-import com.zipcodewilmington.froilansfarm.Farm;
+import com.zipcodewilmington.froilansfarm.plants.Farm;
 import com.zipcodewilmington.froilansfarm.Farmer;
-import com.zipcodewilmington.froilansfarm.plants.Crop;
 import com.zipcodewilmington.froilansfarm.vehicles.Tractor;
 
 import static com.zipcodewilmington.froilansfarm.days.EveryMorning.everyMorning;

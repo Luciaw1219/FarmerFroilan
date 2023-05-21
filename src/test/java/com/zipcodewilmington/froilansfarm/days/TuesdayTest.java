@@ -1,12 +1,9 @@
 package com.zipcodewilmington.froilansfarm.days;
 
-import com.zipcodewilmington.froilansfarm.Farm;
+import com.zipcodewilmington.froilansfarm.plants.Farm;
 import com.zipcodewilmington.froilansfarm.Farmer;
-import com.zipcodewilmington.froilansfarm.plants.Crop;
 import com.zipcodewilmington.froilansfarm.vehicles.Tractor;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
 
 import static com.zipcodewilmington.froilansfarm.days.Tuesday.tuesday;
 import static org.junit.jupiter.api.Assertions.assertTrue;

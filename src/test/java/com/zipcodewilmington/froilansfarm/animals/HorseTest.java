@@ -1,6 +1,6 @@
 package com.zipcodewilmington.froilansfarm.animals;
 
-import com.zipcodewilmington.froilansfarm.EdibleEgg;
+import com.zipcodewilmington.froilansfarm.plants.EdibleEgg;
 import org.junit.jupiter.api.Test;
 
 class HorseTest {
