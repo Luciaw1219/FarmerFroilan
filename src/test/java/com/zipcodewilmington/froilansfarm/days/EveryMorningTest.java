@@ -5,6 +5,8 @@ import com.zipcodewilmington.froilansfarm.animals.Horse;
 import com.zipcodewilmington.froilansfarm.buildings.Stable;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 class EveryMorningTest {
 
 
