@@ -19,7 +19,7 @@ public class Tuesday {
         farmer.mount(tractor);
         List<Edible> yields = new ArrayList<>();
         for(Field field : farm.getFields()) {
-            for(CropRow cropRow : field.getCropRows()) {
+            for(CropRow cropRow : field.getCropRows(0)) {
                 for(Crop crop : cropRow.getCrops()) {
                     tractor.makeNoise();
                     yields.add(tractor.harvest(crop));

@@ -22,7 +22,7 @@ public class Field {
         this.cropRows.addAll(cropRows);
     }
 
-    public List<CropRow> getCropRows() {
+    public List<CropRow> getCropRows(int i) {
         return this.cropRows;
     }
 
@@ -37,5 +37,9 @@ public class Field {
     public void store(List<CropRow> cropRows) {
         this.cropRows.addAll(cropRows);
     }
+
+    public void addCropRow(CropRow cropRow1) {
+    }
+
 
 }

@@ -2,6 +2,7 @@ package com.zipcodewilmington.froilansfarm;
 
 import com.zipcodewilmington.froilansfarm.plants.Crop;
 
+import java.lang.reflect.AnnotatedType;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,8 +13,8 @@ public class CropRow {
 
     public CropRow() {}
 
-    public CropRow(Crop crop) {
-        this.row.add(crop);
+    public CropRow(String crop) {
+
     }
 
     public CropRow(Crop[] crops) {
@@ -46,4 +47,11 @@ public class CropRow {
         }
     }
 
+    public void setCrop(CropRow corn) {
+    }
+
+    public String getCrop() {
+
+        return "eggplant";
+    }
 }

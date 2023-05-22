@@ -15,4 +15,6 @@ public class Horse extends Animal implements Rideable {
         System.out.println("neigh");
     }
 
+    public void eatBreakfast() {
+    }
 }

@@ -7,7 +7,7 @@ public abstract class Crop implements Produce {
     private boolean harvested;
     private boolean fertilized;
 
-    public Crop() {
+    public Crop(String corn) {
         this.harvested = false;
         this.fertilized = false;
     }

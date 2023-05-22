@@ -13,4 +13,9 @@ public class Stable {
         horses.add(horse);
     }
 
+    public void rideHorse() {
+    }
+
+    public void feedHorse(int i) {
+    }
 }
